@@ -1,0 +1,60 @@
+body {
+	background-image: url(../photo/back.jpg);
+	background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.header {
+	background-color: rgba(74,117,117,0.9);
+}
+.logo img {
+	width: 100px;
+	animation: cre 3s infinite;
+}
+@keyframes cre {
+  0% { transform: rotate(0deg); }
+  100% {transform: rotate(360deg);}
+}
+li a {
+	color: #673354;
+	font-size: 20px;
+	font-weight: bold;
+	transition-property: all;
+	transition-duration: 0.5s;
+}
+li:hover a {
+	color: #fff;
+}
+li {
+	transition-duration: 0.3s;
+	transition-property: all;
+}
+li:hover {
+	transform: scale(1.1);
+}
+.inst img {
+	width:  250px;
+}
+.ph {
+	width: 225px;
+	height: 135px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.inst p {
+	font-size: 15px;
+	color: white;
+	font-weight: bold;
+}
+.inst {
+	transition-duration: 0.5s;
+	transition-property: all;
+}
+.inst:hover {
+	background-color: rgba(85,85,85,0.8);
+	transform: scale(1.1);
+	border-radius: 25px;
+}
